@@ -1,0 +1,54 @@
+
+================================================================================
+                    TRADING-GBM ENSEMBLE REPORT (CAUSAL)
+================================================================================
+
+SYMBOL   : EURUSD H1
+PERIOD   : 16491 candles (36 months)
+MODELS   : 12
+
+--------------------------------------------------------------------------------
+                        PERFORMANCE
+--------------------------------------------------------------------------------
+FINAL EQUITY     : -146.63 $
+PEAK EQUITY      : +0.06 $
+MAX DRAWDOWN     : 152.41 $
+PROFIT/DD RATIO  : -0.962" if dd > 0 else "N/A"
+
+--------------------------------------------------------------------------------
+                        TRADES
+--------------------------------------------------------------------------------
+TOTAL TRADES     : 275
+WIN              : 0
+LOSS             : 2
+EXIT             : 273
+WIN RATE         : 0.0%
+
+AVG WIN          : +0.00 $
+AVG LOSS         : -5.00 $
+AVG RATIO        : 0.00
+
+--------------------------------------------------------------------------------
+                    ENSEMBLE MODELS
+--------------------------------------------------------------------------------
+Model  1: sigma= 5, forward= 3, trees=2
+Model  2: sigma= 5, forward= 5, trees=1
+Model  3: sigma= 5, forward=10, trees=1
+Model  4: sigma=10, forward= 3, trees=1
+Model  5: sigma=10, forward= 5, trees=1
+Model  6: sigma=10, forward=10, trees=1
+Model  7: sigma=20, forward= 3, trees=1
+Model  8: sigma=20, forward= 5, trees=1
+Model  9: sigma=20, forward=10, trees=1
+Model 10: sigma=30, forward= 3, trees=1
+Model 11: sigma=30, forward= 5, trees=2
+Model 12: sigma=30, forward=10, trees=1
+
+--------------------------------------------------------------------------------
+                    RISK SETTINGS
+--------------------------------------------------------------------------------
+LOT              : 0.01
+STOP LOSS        : 50 pips
+TAKE PROFIT     : 100 pips
+THRESHOLD        : 0.52
+================================================================================
